@@ -1,0 +1,22 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "Learning React.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadevichA/reactproject.git"
+  },
+  "keywords": [
+    "Otus"
+  ],
+  "author": "Alexey Radevich",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/RadevichA/reactproject/issues"
+  },
+  "homepage": "https://github.com/RadevichA/reactproject#readme"
+}
