@@ -1,4 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById("root"));
+interface Prop {
+  name?: string;
+}
+const HelloWorld: React.FC<Prop> = ({ name = "World" }) => {
+  return <div>Hello {name}!</div>;
+};
+
+export default HelloWorld;
