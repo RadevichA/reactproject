@@ -1,4 +1,7 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
 
-render(<h1>React here!</h1>, document.getElementById("root"));
+const name = "Алексей";
+const element = <h1>Привет, {name}</h1>;
+
+ReactDOM.render(element, document.getElementById("root"));
